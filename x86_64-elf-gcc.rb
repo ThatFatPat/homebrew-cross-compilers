@@ -1,7 +1,7 @@
 class X8664ElfGcc < Formula
   desc "GNU Compiler Collection for x86_64-elf target"
   homepage "https://www.gnu.org/software/gcc/gcc.html"
-  url "https://ftpmirror.gnu.org/gcc/gcc-9.2.0/gcc-9.2.0.tar.bz2"
+  url "https://ftpmirror.gnu.org/gcc/gcc-9.2.0/gcc-9.2.0.tar.gz"
   sha256 "a931a750d6feadacbeecb321d73925cd5ebb6dfa7eff0802984af3aef63759f4"
 
   option "without-cxx", "Don't build the g++ compiler"
