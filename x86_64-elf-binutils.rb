@@ -1,8 +1,8 @@
 class X8664ElfBinutils < Formula
   desc "Binutils for x86_64-elf target"
   homepage "https://www.gnu.org/software/binutils/"
-  url "https://ftpmirror.gnu.org/binutils/binutils-2.28.tar.bz2"
-  sha256 "6297433ee120b11b4b0a1c8f3512d7d73501753142ab9e2daa13c5a3edd32a72"
+  url "https://ftp.gnu.org/pub/gnu/binutils/binutils-2.33.1.tar.gz"
+  sha256 "98aba5f673280451a09df3a8d8eddb3aa0c505ac183f1e2f9d00c67aa04c6f7d"
 
   def install
     args = [
