@@ -1,8 +1,8 @@
 class X8664ElfGdb < Formula
   desc "GNU Project Debugger for x86_64-elf target"
   homepage "https://www.gnu.org/software/gdb/"
-  url "https://ftpmirror.gnu.org/gdb/gdb-7.12.tar.xz"
-  sha256 "834ff3c5948b30718343ea57b11cbc3235d7995c6a4f3a5cecec8c8114164f94"
+  url "https://ftp.gnu.org/pub/gnu/gdb/gdb-8.3.tar.gz"
+  sha256 "b2266ec592440d0eec18ee1790f8558b3b8a2845b76cc83a872e39b501ce8a28"
 
   depends_on "x86_64-elf-binutils"
   depends_on "x86_64-elf-gcc"
