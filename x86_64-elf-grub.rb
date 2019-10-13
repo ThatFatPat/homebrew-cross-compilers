@@ -21,7 +21,7 @@ class X8664ElfGrub < Formula
       "--target=x86_64-elf",
     ]
     
-    system "./autogen.sh"
+    system "./bootstrap"
     mkdir "build" do
       system "../configure", *args
       system "make"
